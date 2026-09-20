@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Agent"
+  short_description: "Evalúa amenazas y controles proporcionales"
+  default_prompt: "Evalúa los riesgos de seguridad de este cambio."

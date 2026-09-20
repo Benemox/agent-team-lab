@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agent-team-lab": {
+      "command": "uv",
+      "args": ["run", "agent-team-mcp"],
+      "env": {
+        "AGENT_TEAM_PROVIDER": "openai"
+      }
+    }
+  }
+}

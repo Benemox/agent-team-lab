@@ -1,0 +1,27 @@
+{
+  "name": "agent-team-lab",
+  "version": "0.1.0",
+  "description": "Equipo de agentes PM, arquitectura, programación, QA y seguridad accesible por MCP, REST y CLI.",
+  "author": {
+    "name": "Abel Abbasi",
+    "url": "https://github.com/Benemox"
+  },
+  "repository": "https://github.com/Benemox/agent-team-lab",
+  "license": "MIT",
+  "keywords": ["agents", "mcp", "hermes", "openai", "qa"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Team Lab",
+    "shortDescription": "Consulta un equipo de expertos sobre tu proyecto.",
+    "longDescription": "Orquesta perfiles especializados conectados entre sí y devuelve una propuesta revisada sin modificar automáticamente el proyecto.",
+    "developerName": "Abel Abbasi",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "MCP", "Multi-agent"],
+    "defaultPrompt": [
+      "Revisa este cambio con el equipo de agentes.",
+      "Pide a QA un plan de pruebas para este proyecto.",
+      "Analiza la arquitectura antes de implementar."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

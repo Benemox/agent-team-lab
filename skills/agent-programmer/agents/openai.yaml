@@ -1,0 +1,4 @@
+interface:
+  display_name: "Programmer Agent"
+  short_description: "Detalla cambios de código y pruebas implementables"
+  default_prompt: "Propón la implementación concreta para este cambio."

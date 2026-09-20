@@ -1,0 +1,4 @@
+interface:
+  display_name: "PM Agent"
+  short_description: "Define alcance, criterios y decisión de entrega"
+  default_prompt: "Convierte esta petición en un plan de producto verificable."

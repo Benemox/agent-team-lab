@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Agent"
+  short_description: "Detecta regresiones y diseña pruebas trazables"
+  default_prompt: "Revisa esta propuesta y crea el plan de pruebas crítico."

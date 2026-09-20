@@ -1,0 +1,12 @@
+services:
+  agent-team:
+    build: .
+    ports:
+      - "127.0.0.1:8008:8008"
+    env_file: .env
+    environment:
+      AGENT_TEAM_HOST: 0.0.0.0
+      AGENT_TEAM_ALLOWED_ROOT: /workspace
+    volumes:
+      - "${PROJECTS_ROOT:-.}:/workspace:ro"
+

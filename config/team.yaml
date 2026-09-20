@@ -1,0 +1,17 @@
+stages:
+  - id: discovery
+    objective: Convert the request into scope, acceptance criteria, assumptions and risks.
+    roles: [agent-pm]
+  - id: architecture
+    objective: Design the smallest maintainable solution compatible with the existing project.
+    roles: [agent-architect]
+  - id: implementation
+    objective: Produce a concrete implementation plan, affected files and technical details.
+    roles: [agent-programmer]
+  - id: validation
+    objective: Review the proposal independently and identify failures before implementation.
+    roles: [agent-qa, agent-security]
+  - id: decision
+    objective: Reconcile all findings into an ordered, testable delivery decision.
+    roles: [agent-pm]
+

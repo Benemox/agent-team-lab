@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Agent"
+  short_description: "Diseña límites y contratos compatibles con el proyecto"
+  default_prompt: "Revisa la arquitectura de este cambio antes de implementarlo."
